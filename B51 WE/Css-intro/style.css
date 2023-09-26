@@ -1,0 +1,103 @@
+div{
+    color: brown;
+
+}
+/* four pillars of properties */
+/* list properties */
+ul{
+    /* list-style-type:square; */
+    /* list-style: square inside url("../Html/sample_image.png"); */
+
+}
+ /* font propertiy */
+ p{
+    /* font-size: medium; */
+    font-size: 20px;
+    /* font-style: italic; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-weight: 100;
+ }
+
+ /* text property */
+ p{
+    /* text-align: center; */
+    /* text-align: end; */
+    /* text-align: right; */
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 2.5;
+    letter-spacing: 2.0px;
+
+ }
+
+ /* border property */
+ p{
+    /* border: border-with border-style border-color */
+    border:2px solid red;
+    border-radius: 10px;
+ }
+ /* div{
+    border : 3px solid green;
+    text-align: center;
+    border-top: 2px solid red;
+    border-bottom: 2px dotted red;
+
+ } */
+/* class selector
+.selector */
+.ele{
+    text-align: center;
+    color: blue;
+}
+.brd{
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+/* id selector */
+#uni-ele{
+    font-style: italic;
+    color: greenyellow;
+}
+#uni-ele2{
+    font-style: normal;
+color: blueviolet;
+}
+/* #container{
+    background-color: aqua;
+} */
+#container a{
+    background-color: blueviolet;
+    text-decoration: none;
+}
+.anc-link{
+    background-color: crimson !important;
+  
+}
+.block{
+    display: block;
+    background-color: blue;
+    margin: 10px;
+    padding: 5px;
+    width: 70px;
+    height: 10px;
+   
+}
+.Inline{
+    display: inline;
+    background-color: green;
+    margin: 10px;
+    padding: 5px;
+   /* cannot do width and height */
+
+}
+.Inline-block{
+
+    display: inline-block;
+    background-color: grey;
+    margin: 10px;
+    padding: 5px;
+    width: 70px;
+    height: 10px;
+
+}

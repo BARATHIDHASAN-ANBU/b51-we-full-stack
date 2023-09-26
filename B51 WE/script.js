@@ -1,0 +1,11 @@
+var studenttarray=["raj","siva"," ram"];
+var[student1,student2,student3]= studentarray;
+console.log(val1);
+console.log(val2);
+console.log(val3);
+const testarray =[ 1,2,5,7,["sanjay",25],6];
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
